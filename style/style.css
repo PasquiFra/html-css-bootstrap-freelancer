@@ -33,25 +33,42 @@ header {
     height: 500px;
 }
 
+.content {
+    width: 400px;
+}
+
 .portfolio {
-    min-height: 1200px;
+    min-height: 800px;
     background-color: whitesmoke;
 }
 
 .card {
     height: 350px;
+    flex-basis: 100%;
 }
 
 .about,
-.contact-form,
-footer {
+.contact-form {
     height: 500px;
 }
 
 footer {
     background-color:#3A546D ;
+    min-height: 300px;
+}
+
+footer .box {
+    flex-basis: calc(100% / 3);
+    height: 100px;
 }
 
 .footer-bottom {
     height: 100px;
+}
+
+@media screen and (min-width:1200px) {
+
+    .cs-container {
+        width: 960px;
+    }
 }
