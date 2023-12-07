@@ -1,0 +1,57 @@
+/*! GENERAL RULES */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* utils */
+
+.bg-verdeacqua {
+    background-color: #1ABC9C;
+}
+.bg-white {
+    background-color: white;
+}
+
+/* sections */
+
+body {
+    background-color: #2C3E50;
+}
+
+header {
+    height: 100px;
+} 
+
+.title {
+    background-color: var(--bs-gray);
+    height: 75px;
+}
+
+.jumbotron {
+    height: 500px;
+}
+
+.portfolio {
+    min-height: 1200px;
+    background-color: whitesmoke;
+}
+
+.card {
+    height: 350px;
+}
+
+.about,
+.contact-form,
+footer {
+    height: 500px;
+}
+
+footer {
+    background-color:#3A546D ;
+}
+
+.footer-bottom {
+    height: 100px;
+}
