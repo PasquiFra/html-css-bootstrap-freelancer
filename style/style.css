@@ -51,6 +51,11 @@ header {
 .contact-form {
     height: 500px;
 }
+.about div,
+.contact-form div {
+    flex-basis: 100%;
+    max-width: 960px;
+}
 
 footer {
     background-color:#3A546D ;
