@@ -66,6 +66,7 @@ img {
     background-color: whitesmoke;;
 }
 
+/* Divisore con stella */
 .horiz-rule {
     height: 2px;
     width: 75px;
@@ -78,7 +79,12 @@ img {
 }
 
 .divider {
-    margin: 10px 0;   
+    margin: 10px 0;      
+}
+
+.portfolio .divider *,
+.contact-form .divider * {
+    color: #2c3e50;   
 }
 
 /*! Font-Awesome */
@@ -122,10 +128,6 @@ header {
 
 /* PORTFOLIO */
 
-.portfolio .divider *{
-    color: #2c3e50;   
-}
-
 .portfolio picture {
     padding: 5px;
 }
@@ -139,19 +141,20 @@ header {
 .about button {
     font-size: 1.1rem ;
     font-weight: 600;
-    padding: 10px 15px;
+
+    padding: 9px 15px;
+    margin-top: 25px;
+
+    vertical-align: middle;
 }
 
+.about p {
+    margin: 15px 0;
 
-.about,
-.contact-form {
-    height: 500px;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
-.about div,
-.contact-form div {
-    flex-basis: 100%;
-    max-width: 960px;
-}
+
 
 footer {
     background-color:#3A546D ;
