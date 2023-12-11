@@ -1,3 +1,10 @@
+/*! CSS PROPERTIES */
+
+:root {
+    --txt-darkblue: #2c3e50;
+
+   }
+
 /*! GENERAL RULES */
 
 * {
@@ -84,7 +91,7 @@ img {
 
 .portfolio .divider *,
 .contact-form .divider * {
-    color: #2c3e50;   
+    color: var(--txt-darkblue);   
 }
 
 /*! Font-Awesome */
@@ -155,6 +162,42 @@ header {
     font-weight: 600;
 }
 
+/* FORM */
+
+.col-8 input.form-submit {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #1ABC9C;
+
+    border-radius: 5px;
+    border-style: none;
+
+    vertical-align: middle;
+    width: auto;
+    padding: 6px 15px 9px 15px;
+    margin-top: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    color: var(--txt-darkblue);
+    background-color: white;
+
+    padding: 10px 0 15px 0;
+    border-style: unset;
+    border-bottom: 1px solid rgba(165, 165, 165, 0.658);
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+    width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    box-shadow: none;
+}
 
 footer {
     background-color:#3A546D ;
