@@ -43,6 +43,12 @@ img {
     height: auto;
 }
 
+address {
+    font-style: normal;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 /*! Utils */
 
 .bg-verdeacqua {
@@ -104,6 +110,21 @@ img {
     padding-right: 5px;
 }
 
+.fa-brands {
+    font-size: 1.2rem;
+}
+
+.fa-copyright {
+    font-size: 0.8rem;
+}
+.socials {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+
+    margin: 5px;
+}
 /*! sections */
 
 /* HEADER */
@@ -199,23 +220,43 @@ header {
     box-shadow: none;
 }
 
+/* FOOTER */
+
 footer {
     background-color:#3A546D ;
     min-height: 300px;
 }
 
-footer .box {
-    flex-basis: calc(100% / 3);
-    height: 100px;
-}
-
 .footer-bottom {
     height: 100px;
+}
+.footer-bottom address{
+   font-size: 0.9rem;
+}
+
+footer .col {
+    margin: 10px 0;
+}
+
+@media screen and (min-width:768px) {
+
+    .about p {
+        font-size: 1.1rem;
+    }
+
+    footer address {
+        font-size: 1rem;
+    }
+
 }
 
 @media screen and (min-width:1200px) {
 
     .cs-container {
         width: 960px;
+    }
+
+    footer h3 {
+        font-size: 1.7rem;
     }
 }
