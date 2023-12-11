@@ -3,9 +3,40 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+    color: white;
 }
 
-/* utils */
+body {
+    background-color: #2C3E50;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+h2 {
+    color: #333333;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*! Utils */
 
 .bg-verdeacqua {
     background-color: #1ABC9C;
@@ -13,39 +44,104 @@
 .bg-white {
     background-color: white;
 }
-
-/* sections */
-
-body {
-    background-color: #2C3E50;
+.bg-vibred {
+    background-color: #ba4b63;
 }
+.bg-dodblue {
+    background-color: #1ea4b6;
+}
+.bg-quasiblack {
+    background-color: #140f0f;
+}
+.bg-bluelagoon {
+    background-color: #1c83c1;
+}
+.bg-blueocean {
+    background-color: #0e38b5;
+}
+.bg-sand {
+    background-color: #ccb2a3;
+}
+.bg-wsmoke {
+    background-color: whitesmoke;;
+}
+
+.horiz-rule {
+    height: 2px;
+    width: 75px;
+    
+    border: 2px solid;
+    border-radius: 3px;
+    margin: 0 8px 8px 8px;
+
+    display: inline-block;
+}
+
+.divider {
+    margin: 10px 0;   
+}
+
+/*! Font-Awesome */
+
+.fa-star {
+    font-size: 1.8rem;
+}
+
+.fa-download {
+    padding-right: 5px;
+}
+
+/*! sections */
+
+/* HEADER */
 
 header {
-    height: 100px;
+    min-height: 90px;
 } 
 
-.title {
-    background-color: var(--bs-gray);
-    height: 75px;
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
-.jumbotron {
-    height: 500px;
+.navbar button {
+    border-color: white;
+    padding: 2px 8px;
 }
 
-.content {
-    width: 400px;
-}
-
-.portfolio {
-    min-height: 800px;
-    background-color: whitesmoke;
-}
-
-.card {
-    height: 350px;
+.nav-item {
     flex-basis: 100%;
 }
+
+/* JUMBOTRON */
+
+.avatar img {
+    height: 275px;
+    width: 275px;
+}
+
+/* PORTFOLIO */
+
+.portfolio .divider *{
+    color: #2c3e50;   
+}
+
+.portfolio picture {
+    padding: 5px;
+}
+
+/* ABOUT */
+
+.about h2 {
+    color: white;
+}
+
+.about button {
+    font-size: 1.1rem ;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
 
 .about,
 .contact-form {
