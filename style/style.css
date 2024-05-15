@@ -3,7 +3,7 @@
 :root {
     --txt-darkblue: #2c3e50;
 
-   }
+}
 
 /*! GENERAL RULES */
 
@@ -49,7 +49,8 @@ address {
     font-weight: 600;
 }
 
-ul, li {
+ul,
+li {
     list-style: none;
 }
 
@@ -58,30 +59,40 @@ ul, li {
 .bg-verdeacqua {
     background-color: #1ABC9C;
 }
+
 .bg-white {
     background-color: white;
 }
+
 .bg-vibred {
     background-color: #ba4b63;
 }
+
 .bg-dodblue {
     background-color: #1ea4b6;
 }
+
 .bg-quasiblack {
     background-color: #140f0f;
 }
+
 .bg-bluelagoon {
     background-color: #1c83c1;
 }
+
 .bg-blueocean {
     background-color: #0e38b5;
 }
+
 .bg-sand {
     background-color: #ccb2a3;
 }
+
 .bg-wsmoke {
-    background-color: whitesmoke;;
+    background-color: whitesmoke;
+    ;
 }
+
 .text-green {
     color: #1ABC9C;
 }
@@ -90,7 +101,7 @@ ul, li {
 .horiz-rule {
     height: 2px;
     width: 75px;
-    
+
     border: 2px solid;
     border-radius: 3px;
     margin: 0 8px 8px 8px;
@@ -99,12 +110,12 @@ ul, li {
 }
 
 .divider {
-    margin: 10px 0;      
+    margin: 10px 0;
 }
 
 .portfolio .divider *,
 .contact-form .divider * {
-    color: var(--txt-darkblue);   
+    color: var(--txt-darkblue);
 }
 
 /*! Font-Awesome */
@@ -124,6 +135,7 @@ ul, li {
 .fa-copyright {
     font-size: 0.8rem;
 }
+
 .socials {
     border-radius: 50%;
     border: 1px solid white;
@@ -132,13 +144,14 @@ ul, li {
 
     margin: 5px;
 }
+
 /*! sections */
 
 /* HEADER */
 
 header {
     min-height: 90px;
-} 
+}
 
 .navbar-nav a {
     color: white;
@@ -179,7 +192,7 @@ header {
 }
 
 .about button {
-    font-size: 1.1rem ;
+    font-size: 1.1rem;
     font-weight: 600;
 
     padding: 9px 15px;
@@ -196,6 +209,10 @@ header {
 }
 
 /* FORM */
+
+div input:focus-visible {
+    outline: none;
+}
 
 .col-8 input.form-submit {
     color: white;
@@ -223,7 +240,7 @@ header {
 
     font-size: 1.3rem;
     font-weight: 600;
-    
+
     width: 100%;
 }
 
@@ -231,15 +248,16 @@ header {
 /* FOOTER */
 
 footer {
-    background-color:#3A546D ;
+    background-color: #3A546D;
     min-height: 300px;
 }
 
 .footer-bottom {
     height: 100px;
 }
-.footer-bottom address{
-   font-size: 0.9rem;
+
+.footer-bottom address {
+    font-size: 0.9rem;
 }
 
 footer .col {
@@ -270,15 +288,15 @@ footer .col {
     footer .col {
         margin: 0;
     }
-        
-    }
-    
+
+}
+
 @media screen and (min-width:1200px) {
-    
+
     .cs-container {
         width: 960px;
     }
-    
+
     footer h3 {
         font-size: 1.7rem;
     }
