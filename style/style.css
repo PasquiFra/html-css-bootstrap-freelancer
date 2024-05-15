@@ -49,6 +49,10 @@ address {
     font-weight: 600;
 }
 
+ul, li {
+    list-style: none;
+}
+
 /*! Utils */
 
 .bg-verdeacqua {
@@ -77,6 +81,9 @@ address {
 }
 .bg-wsmoke {
     background-color: whitesmoke;;
+}
+.text-green {
+    color: #1ABC9C;
 }
 
 /* Divisore con stella */
@@ -132,6 +139,11 @@ address {
 header {
     min-height: 90px;
 } 
+
+.navbar-nav a {
+    color: white;
+    font-weight: 600;
+}
 
 .navbar-brand {
     font-weight: bold;
@@ -215,10 +227,6 @@ header {
     width: 100%;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
-    box-shadow: none;
-}
 
 /* FOOTER */
 
@@ -238,6 +246,13 @@ footer .col {
     margin: 10px 0;
 }
 
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 @media screen and (min-width:768px) {
 
     .about p {
@@ -248,14 +263,22 @@ footer .col {
         font-size: 1rem;
     }
 
-}
+    footer h3 {
+        font-size: 1.3rem;
+    }
 
+    footer .col {
+        margin: 0;
+    }
+        
+    }
+    
 @media screen and (min-width:1200px) {
-
+    
     .cs-container {
         width: 960px;
     }
-
+    
     footer h3 {
         font-size: 1.7rem;
     }
