@@ -201,6 +201,10 @@ header {
     vertical-align: middle;
 }
 
+.about button:hover i {
+    color: black;
+}
+
 .about p {
     margin: 15px 0;
 
